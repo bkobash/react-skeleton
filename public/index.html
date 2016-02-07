@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>React Skeleton</title>
+  </head>
+  <body>
+<!--
+
+1. Create two folders: "src" and "public"
+
+2. Set up the node project
+- npm init
+- use default values
+- this creates package.json
+
+3. Install a bunch of packages
+- sudo npm install -g browserify (this installs globally across all projects)
+- npm install --save babelify
+- npm install --save watchify
+- npm install --save babel-preset-react
+- npm install --save react
+- npm install --save react-dom
+
+4. Create a "components" directory in src
+- Each component is its own file
+
+5. Create "main.jsx" in src
+- This is the main entry point for the application, and will call all the other components.
+
+6. Create some new components - "List.jsx" and "ListItem.jsx"
+- Build out ListItem first
+- Build out List next
+
+7. Then build out main.jsx
+
+8. Then populate index.html
+
+9. Create a new folder in "public" called "js". Then create "main.js" in there.
+- The compile tools will populate this file.
+
+10. Go to package.json, tell tools to do some work.
+- In "scripts", add "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js"
+
+11. Run it
+-- npm start 
+-->
+        <div id="ingredients">
+
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
